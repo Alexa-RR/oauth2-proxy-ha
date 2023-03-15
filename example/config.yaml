@@ -11,10 +11,14 @@ arch:
   - amd64
   - i386
 init: false
+environment:
+  OAUTH2_PROXY_CONFIG: /config/auth.cfg
+ports:
+  4180/tcp: 4180
 map:
   - share:rw
 options:
   message: "Hello world..."
 schema:
   message: "str?"
-image: "ghcr.io/home-assistant/{arch}-addon-example"
+image: "https://quay.io/oauth2-proxy/oauth2-proxy-{arch}"
