@@ -1,4 +1,4 @@
 # https://developers.home-assistant.io/docs/add-ons/repository#repository-configuration
-name: Example Home Assistant add-on repository
-url: 'https://github.com/home-assistant/addons-example'
-maintainer: Awesome Maintainer <awesome@example.com>
+name: Oauth2-proxy Home Assistant add-on repository
+url: 'https://github.com/Alexa-RR/oauth2-proxy-ha'
+maintainer: Alexa-RR
